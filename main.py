@@ -3,7 +3,7 @@ from modules.replit_checker import get_replit_code
 from modules.ai_engine import analyze_and_repair
 from modules.dashboard import log_to_dashboard
 
-CHECK_INTERVAL = 1  # هر چند ثانیه بررسی کند
+CHECK_INTERVAL = 1
 
 def run_repair_cycle():
     print("🤖 ربات تعمیرکار هوشمند فعال شد...")
